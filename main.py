@@ -25,5 +25,5 @@ def value_genre(path : str):
     keyword1,keyword2 = kss.prediction(path)
     
     return keyword2
-
-
+if __name__ == "__main__":
+    app.run()
